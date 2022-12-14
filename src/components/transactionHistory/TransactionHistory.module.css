@@ -1,0 +1,23 @@
+.table {
+  width: 80%;
+  margin: 25px auto 0 auto;
+}
+
+.thead {
+  background-color: rgb(127, 229, 255);
+  border: none;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 7px;
+}
+
+tr:nth-child(even) {
+  background-color: azure;
+}
+
+.capitilize {
+  text-transform: capitalize;
+}
