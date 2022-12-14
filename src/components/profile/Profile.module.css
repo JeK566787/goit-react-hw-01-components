@@ -2,7 +2,7 @@
   margin: 15px auto 0 auto;
   padding-top: 30px;
   max-width: 40vw;
-  background-color: rgb(231, 236, 86);
+  background-color: rgb(231, 236, 242);
   border-radius: 15px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 10px;
@@ -42,7 +42,7 @@
   justify-content: space-around;
   padding: 0;
   border-radius: 20px 20px 20px 20px;
-  background-color: rgba(35, 241, 8, 0.692);
+  background-color: white;
   overflow: hidden;
 }
 

@@ -11,14 +11,16 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
   );
 };
 
-FriendListItem.propTypes.arrayOf(
-  PropTypes.shape({
-    avatar: PropTypes.string,
-    name: PropTypes.string,
-    isOnline: PropTypes.bool,
-    id: PropTypes.number,
-  })
-);
+FriendListItem.propTypes = {
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      avatar: PropTypes.string,
+      name: PropTypes.string,
+      isOnline: PropTypes.bool,
+      id: PropTypes.number,
+    })
+  ),
+};
 
 // Statistics.propTypes = {
 //   title: PropTypes.string,
